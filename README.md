@@ -50,3 +50,7 @@ If you want to use SCSS or LESS feel free to make that change in the file types 
 Feel free to add onto this project by forking it and making it your own, This is just a basic start but work for most basic project without a lot of fancy bells and whistles.
 
 Cheers 👍🏼
+
+* **notes** 
+http://styletil.es/
+gitignore.io
