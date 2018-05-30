@@ -1,27 +1,29 @@
 #header
   // background-image: url("") no-repeat;
   // background-size: cover;
-  background-image: linear-gradient(50deg,$ocean 40%, $lime )
-  height: 800px
+  background-image: linear-gradient(40deg,rgba(0,158,253,1) 0%, rgba(21,201,203,1) 48%, rgba(42,245,152,1) 100%)
+  height: 700px
   color: white
   text-align: center
   overflow: hidden
 
   img
-    max-width: 500px
+    max-width: 300px
     width: 100%
 
   article
-    width: 80%  
+    width: 60%  
     margin: 0 auto
 
   h1 
     color: white
     margin-bottom: 10px
+    text-transform: uppercase
 
 .main-nav
   display: flex
   margin-top: 20px
+  padding: 0
   li:first-child
     margin-right: auto
   li
@@ -40,3 +42,24 @@ a.download
   color: $ocean
   box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2)
   margin-left: 25px
+
+#brands 
+  background: #f9f9f9
+  ul
+    margin: 0 auto
+    padding: 30px 0
+    background: white
+    display: grid
+    grid-template-columns: repeat(6, auto)
+    justify-items: center
+    @media only screen and (max-width: 550px)
+      grid-template-columns: repeat(3, auto)
+
+  li 
+    list-style: none
+    img  
+      width: 100%
+    i 
+      font-size: 50px
+  
+
